@@ -1,2 +1,3 @@
+//estes arquivos não serão rastreados pelo git no momento do commit 
 node_modules
 .env

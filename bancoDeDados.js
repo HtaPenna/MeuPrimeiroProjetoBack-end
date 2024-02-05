@@ -7,7 +7,7 @@ async function conectaBancoDeDados()
     {
     console.log("Conexão com o banco de dados iniciou")
     await mongoose.connect(process.env.MONGO_URL)
-    console.log("Conexão com o banco de dados foi realizada com sucesso!")
+    console.log("Conexão com o banco de dados realizada com sucesso!")
     }
     catch(erro)
     {

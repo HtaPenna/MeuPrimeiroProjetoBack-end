@@ -90,7 +90,7 @@ async function deletaMulher(request, response)
     try
     {
         await Mulher.findByIdAndDelete(request.params.id) //Função findByIdAndDelete encontra a mulher requisitada para deletar e deleta.
-        response.json({menssagem:'Mulher deletada com sucesso!'})
+        response.json({Menssagem:'Mulher deletada com sucesso!'})
     }
     catch(erro)
     {
