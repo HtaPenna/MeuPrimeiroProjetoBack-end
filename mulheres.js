@@ -9,8 +9,8 @@ conectaBancoDeDados() //Chamando a função que conecta o banco de dados
 const Mulher = require('./mulherModel')
 
 const app = express() //Iniciando o app
-app.use(express.json())
 app.use(cors()) //Liberando o acesso do servidor para o front-end
+app.use(express.json())
 const porta = 3333 //Criando a porta
 
 //GET = pegar
