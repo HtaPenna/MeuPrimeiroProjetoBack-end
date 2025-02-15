@@ -14,7 +14,7 @@ app.use(express.json())
 const porta = 3333 //Criando a porta
 
 //GET = pegar
-async function mostraMulheres(resquest, response)
+async function mostraMulheres(request, response)
 {
     try
     {
